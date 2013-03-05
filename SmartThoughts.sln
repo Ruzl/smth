@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartThoughts", "SmartThoughts\SmartThoughts.csproj", "{1CD75C03-F180-45B2-B33E-9005BC53BBD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smth.Models", "Smth.Models\Smth.Models.csproj", "{49D395D8-37F1-4975-8F29-D9BDCC78E103}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{81532C87-BE17-4B93-9886-E747402F962A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{7C7EEE85-C83E-4466-85D7-16EB57F31873}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{B3548A2C-D43C-463C-B649-5F7D121B5228}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smth.Contracts", "Common\Smth.Contracts\Smth.Contracts.csproj", "{9AA49219-3357-4838-B28C-E2FF1FA220D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "DAL\Data\Data.csproj", "{E1CF4774-93D5-4C40-916D-23B124C91D0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceContracts", "ServiceContracts\ServiceContracts.csproj", "{6B19013C-7E76-4A49-A281-A260F5C631E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smth.Infrastructure", "Common\Smth.Infrastructure\Smth.Infrastructure.csproj", "{1BF0AB91-FB2F-43A9-8516-7F6CFA464C03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CD75C03-F180-45B2-B33E-9005BC53BBD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CD75C03-F180-45B2-B33E-9005BC53BBD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CD75C03-F180-45B2-B33E-9005BC53BBD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CD75C03-F180-45B2-B33E-9005BC53BBD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49D395D8-37F1-4975-8F29-D9BDCC78E103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49D395D8-37F1-4975-8F29-D9BDCC78E103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49D395D8-37F1-4975-8F29-D9BDCC78E103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49D395D8-37F1-4975-8F29-D9BDCC78E103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AA49219-3357-4838-B28C-E2FF1FA220D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AA49219-3357-4838-B28C-E2FF1FA220D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AA49219-3357-4838-B28C-E2FF1FA220D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AA49219-3357-4838-B28C-E2FF1FA220D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1CF4774-93D5-4C40-916D-23B124C91D0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1CF4774-93D5-4C40-916D-23B124C91D0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1CF4774-93D5-4C40-916D-23B124C91D0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1CF4774-93D5-4C40-916D-23B124C91D0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B19013C-7E76-4A49-A281-A260F5C631E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B19013C-7E76-4A49-A281-A260F5C631E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B19013C-7E76-4A49-A281-A260F5C631E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B19013C-7E76-4A49-A281-A260F5C631E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BF0AB91-FB2F-43A9-8516-7F6CFA464C03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BF0AB91-FB2F-43A9-8516-7F6CFA464C03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BF0AB91-FB2F-43A9-8516-7F6CFA464C03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BF0AB91-FB2F-43A9-8516-7F6CFA464C03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E1CF4774-93D5-4C40-916D-23B124C91D0D} = {81532C87-BE17-4B93-9886-E747402F962A}
+		{6B19013C-7E76-4A49-A281-A260F5C631E4} = {7C7EEE85-C83E-4466-85D7-16EB57F31873}
+		{9AA49219-3357-4838-B28C-E2FF1FA220D7} = {B3548A2C-D43C-463C-B649-5F7D121B5228}
+		{1BF0AB91-FB2F-43A9-8516-7F6CFA464C03} = {B3548A2C-D43C-463C-B649-5F7D121B5228}
+	EndGlobalSection
+EndGlobal
